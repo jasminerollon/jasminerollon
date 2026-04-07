@@ -121,9 +121,4 @@
 <!-- water ripples (outside bob so they stay at surface) -->
 <ellipse class="r1" cx="78" cy="190" rx="54" ry="6.5" fill="none" stroke="#1c3357" stroke-width=".85"/>
 <ellipse class="r2" cx="78" cy="193" rx="37" ry="4.2" fill="none" stroke="#1c3357" stroke-width=".6"/>
-
-<!-- corner label -->
-<text x="78" y="210" text-anchor="middle"
-      font-family="'Courier New',Courier,monospace"
-      font-size="9.5" fill="#2d3a4a" letter-spacing="0.5">// just vibing</text>
 </svg>
