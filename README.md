@@ -1,4 +1,4 @@
-<img src="./fish.svg" align="right" width="155" />
+<img src="./fish.svg" align="right" width="300" alt="🐟" />
 
 # hello, i'm **Jasmine** 👋
 
