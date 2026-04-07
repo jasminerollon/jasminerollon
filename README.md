@@ -1,10 +1,10 @@
 <img src="./fish.svg" align="right" width="300" alt="🐟" />
 
-# hello, i'm **Jasmine** 👋
+<br/>
 
-third year bscs student &nbsp;·&nbsp; aspiring data analyst professional &nbsp;·&nbsp; based in the PH
+# hello, i'm **Jasmine** („• ֊ •„)੭*
 
-<br clear="right"/>
+`third year bscs student` · `aspiring data analyst professional` · `based in the PH`
 
 ---
 
@@ -16,7 +16,12 @@ third year bscs student &nbsp;·&nbsp; aspiring data analyst professional &nbsp;
 
 </div>
 
+
+
 ---
+<table><tr>
+<td>
+  
 ### `// tech stack`
 
 **frontend**
@@ -46,7 +51,38 @@ third year bscs student &nbsp;·&nbsp; aspiring data analyst professional &nbsp;
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat&logo=docker&logoColor=2496ed)
 ![Virtual Box](https://img.shields.io/badge/VirtualBox-0d1117?style=flat&logo=virtualbox&logoColor=2F61B4)
 
-### `// connect with me!`
+### `// connect with me!` 
 
 [![Email](https://img.shields.io/badge/email-0d1117?style=flat&logo=gmail&logoColor=58a6ff&)](mailto:jasminerollon@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/jasminerollon)
+
+</td>
+<td align="right">
+  
+```
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⢤⣤⡄⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣴⠮⠋⠈⠐⠀⠃⠛⠸⢑⢄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣠⡛⢂⣀⢀⣴⠀⠓⠀⢷⣄⣀⠘⢷⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⣾⠃⠀⣨⣿⣿⣷⣤⡀⠀⠼⠿⣇⠀⣀⠛⣦⠀⠀⠀
+⠀⠀⢀⡜⣃⡀⠉⡉⠉⣿⠉⠀⠀⣀⠀⠀⠈⠂⠙⠃⠋⠽⣄⠀
+⠀⣠⣞⡘⠘⠁⠀⠀⠀⠃⠀⠀⠀⠻⠁⠀⠶⠄⠀⠀⠀⠉⣗⢳
+⠠⣟⡤⡖⠀⠀⠀⠀⠀⠀⢀⠘⠁⠀⠀⠀⠐⠆⠀⠀⠀⢰⢓⡺
+⠀⠳⠷⢧⡀⢀⠀⢠⣠⣰⣆⠦⠀⠀⠀⠀⢀⢷⡂⡔⣥⠟⠉⠁
+⠀⠀⠀⢀⠟⠛⠛⣿⠉⠉⢉⢿⣷⡿⠶⠖⠋⠉⡟⠋⠉⡆⠀⢀
+⠀⠀⠀⡆⠀⣠⡼⠁⣠⡔⢷⢅⣿⠧⣠⣀⣀⠀⢷⣄⣰⠁⠀⠀
+⠀⠀⠀⣣⠞⠋⠀⡼⠉⠀⠉⠀⠿⠿⠛⢁⣼⠆⠀⠩⠙⠷⣄⠀
+⠀⠀⣸⠉⡄⠀⠸⣯⣠⡴⠞⢙⣧⣡⣾⠞⠁⠀⠀⡇⠀⠀⠸⡆
+⠀⢸⣟⠀⠸⡀⠀⠈⠁⢀⣴⠟⢗⠽⣧⡄⣀⡀⠀⢇⠀⢠⡼⠀
+⠀⠈⢿⡄⢀⠆⠀⠀⠀⣿⣯⣍⣀⣠⣤⣀⢀⠘⣧⠈⣖⠟⠁⠀
+⠀⠀⠀⠛⡾⡀⠀⠀⠀⠈⠛⠛⠋⠉⣿⠏⡿⣮⡿⢨⠃⡇⠀⠀
+⢀⡠⠒⠉⠀⠘⡆⠀⠀⠀⣀⣀⣀⣴⣳⠽⠗⠋⠀⢸⢠⠃⠀⠀
+⠎⠀⠀⠀⢀⣴⠃⠀⣠⡟⠋⣽⠉⠉⠀⠀⠀⠀⣀⠜⢧⣤⣀⠀
+⢇⡀⠀⡰⠵⠃⠀⠀⢿⡀⢨⣗⣄⣀⠀⠀⠀⡜⠀⠀⠀⠉⠹⣗
+⠀⠀⠀⢿⡇⠀⠀⠀⠈⠓⠒⢨⠉⠉⣷⡀⢰⠀⠀⠀⠰⠄⠴⠃
+⠀⠀⠀⠈⠷⠤⠆⠀⢀⣴⣺⣍⡼⠴⠟⠁⠀⡆⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢸⣟⣎⠀⠀⠀⠀⠀⠔⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠋⠑⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+```
+</td>
+</tr></table>
