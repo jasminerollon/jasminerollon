@@ -1,6 +1,6 @@
 <img src="./fish.svg" align="right" width="155" />
 
-# hi, i'm **Jasmine** 👋
+# hello, i'm **Jasmine** 👋
 
 third year bscs student &nbsp;·&nbsp; aspiring data analyst professional &nbsp;·&nbsp; based in the PH
 
@@ -14,12 +14,9 @@ third year bscs student &nbsp;·&nbsp; aspiring data analyst professional &nbsp;
 
 <img height="165" src="https://streak-stats.demolab.com/?user=jasminerollon&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=f0883e&currStreakLabel=58a6ff" />
 
-<br/>
-
 </div>
 
 ---
-
 ### `// tech stack`
 
 **frontend**
@@ -48,11 +45,8 @@ third year bscs student &nbsp;·&nbsp; aspiring data analyst professional &nbsp;
 ![Apache](https://img.shields.io/badge/Apache-0d1117?style=flat&logo=apache&logoColor=D22128)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat&logo=docker&logoColor=2496ed)
 ![Virtual Box](https://img.shields.io/badge/VirtualBox-0d1117?style=flat&logo=virtualbox&logoColor=2F61B4)
----
 
-### `// connect`
+### `// connect with me!`
 
 [![Email](https://img.shields.io/badge/email-0d1117?style=flat&logo=gmail&logoColor=58a6ff&)](mailto:jasminerollon@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/jasminerollon)
-
-<br/>
