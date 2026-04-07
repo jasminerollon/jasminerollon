@@ -1,124 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" width="160" height="220">
-<defs>
-<style>
-.bob{animation:bob 4.2s ease-in-out infinite}
-.wag{animation:wag 1.5s ease-in-out infinite;transform-box:fill-box;transform-origin:100% 50%}
-.b1{animation:rise 4s ease-out infinite 0.1s}
-.b2{animation:rise 4s ease-out infinite 1.4s}
-.b3{animation:rise 4s ease-out infinite 2.7s}
-.r1{animation:rip 4.2s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
-.r2{animation:rip 4.2s ease-in-out infinite 2.1s;transform-box:fill-box;transform-origin:50% 50%}
-.glow{animation:glow 4.2s ease-in-out infinite}
-@keyframes bob{
-  0%,100%{transform:translateY(0)}
-  40%{transform:translateY(-11px)}
-  70%{transform:translateY(-6px)}
-}
-@keyframes wag{
-  0%,100%{transform:rotate(0deg)}
-  50%{transform:rotate(18deg)}
-}
-@keyframes rise{
-  0%{transform:translateY(0);opacity:0}
-  12%{opacity:.8}
-  80%{opacity:0}
-  100%{transform:translateY(-74px);opacity:0}
-}
-@keyframes rip{
-  0%,100%{transform:scaleX(1);opacity:.38}
-  50%{transform:scaleX(1.13);opacity:.1}
-}
-@keyframes glow{
-  0%,100%{opacity:.18}
-  50%{opacity:.32}
-}
-</style>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 130" width="340" height="130">
+  <defs>
+    <style>
+      .c {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13.5px;
+        fill: #2a2a2a;
+      }
+      /* full body bob */
+      .body {
+        animation: bob 2.8s ease-in-out infinite;
+        transform-origin: 170px 65px;
+      }
+      /* tail wag — offset phase */
+      .tail {
+        animation: wag 1.4s ease-in-out infinite;
+        transform-origin: 255px 65px;
+      }
+      /* top fin subtle flutter */
+      .fin {
+        animation: fin 2.8s ease-in-out infinite;
+        transform-origin: 155px 28px;
+      }
+      /* bubbles drift upward */
+      .b1 { animation: bubble1 3.2s ease-in infinite; }
+      .b2 { animation: bubble2 3.2s ease-in 1.1s infinite; }
+      .b3 { animation: bubble3 3.2s ease-in 2.1s infinite; }
 
-<!-- card background -->
-<rect x="3" y="3" width="154" height="214" rx="13" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+      @keyframes bob {
+        0%,100% { transform: translateY(0px) rotate(0deg); }
+        30%      { transform: translateY(-5px) rotate(0.8deg); }
+        70%      { transform: translateY(4px) rotate(-0.6deg); }
+      }
+      @keyframes wag {
+        0%,100% { transform: rotate(0deg); }
+        35%      { transform: rotate(6deg); }
+        65%      { transform: rotate(-5deg); }
+      }
+      @keyframes fin {
+        0%,100% { transform: translateY(0px); }
+        40%      { transform: translateY(-3px); }
+        70%      { transform: translateY(2px); }
+      }
+      @keyframes bubble1 {
+        0%   { transform: translate(0,0); opacity: 0; }
+        10%  { opacity: 0.7; }
+        100% { transform: translate(-6px,-38px); opacity: 0; }
+      }
+      @keyframes bubble2 {
+        0%   { transform: translate(0,0); opacity: 0; }
+        10%  { opacity: 0.5; }
+        100% { transform: translate(-4px,-32px); opacity: 0; }
+      }
+      @keyframes bubble3 {
+        0%   { transform: translate(0,0); opacity: 0; }
+        10%  { opacity: 0.6; }
+        100% { transform: translate(-8px,-28px); opacity: 0; }
+      }
+    </style>
+  </defs>
 
-<!-- subtle ambient glow behind fish -->
-<ellipse class="glow" cx="78" cy="138" rx="50" ry="26" fill="#1a3a6a" opacity=".18"/>
+  <!-- bubbles (emit from nose area, drift left-up) -->
+  <g class="b1"><text class="c" x="72" y="64">.</text></g>
+  <g class="b2"><text class="c" x="66" y="60">·</text></g>
+  <g class="b3"><text class="c" x="76" y="67">°</text></g>
 
-<!-- fish group — positioned at center of canvas -->
-<g transform="translate(78,138)">
-  <g class="bob">
+  <!-- top fin -->
+  <g class="fin">
+    <text class="c" x="136" y="28">. - .</text>
+    <text class="c" x="130" y="40">,     ,</text>
+  </g>
 
-    <!-- tail fin (wags from root where it meets body) -->
-    <g class="wag">
-      <path d="M-42,0 L-68,-27 L-55,0 L-68,27 Z"
-            fill="#0c2240" stroke="#3a7fc1" stroke-width="1.5"
-            stroke-linejoin="round" stroke-linecap="round"/>
-      <!-- tail detail line -->
-      <path d="M-54,0 L-64,-14 M-54,0 L-64,14"
-            fill="none" stroke="#1a4a7a" stroke-width=".8" stroke-linecap="round"/>
-    </g>
+  <!-- main fish body -->
+  <g class="body">
 
-    <!-- body -->
-    <ellipse cx="0" cy="0" rx="43" ry="22" fill="#0a1628" stroke="#58a6ff" stroke-width="1.5"/>
+    <!-- row 1: upper body arc -->
+    <text class="c" x="100" y="50">· * · · · · * · _ .</text>
 
-    <!-- body shadow / depth -->
-    <ellipse cx="2" cy="4" rx="36" ry="14" fill="none" stroke="#0d2a4a" stroke-width="3" opacity=".6"/>
+    <!-- row 2: full body — eye, belly, mouth -->
+    <text class="c" x="83" y="64">· - °</text>
+    <text class="c" x="148" y="64">· · · · · · ·</text>
+    <text class="c" x="234" y="64">) - ,</text>
 
-    <!-- dorsal fin -->
-    <path d="M-12,-22 C-6,-40 5,-44 17,-22"
-          fill="#091522" stroke="#58a6ff" stroke-width="1.3" stroke-linecap="round"/>
-    <!-- dorsal fin inner detail -->
-    <path d="M-6,-25 C-2,-36 6,-38 12,-25"
-          fill="none" stroke="#1a4a7a" stroke-width=".7" stroke-linecap="round"/>
+    <!-- row 3: lower body arc -->
+    <text class="c" x="100" y="78">' · ~ ~   · ' · ' ·</text>
 
-    <!-- pectoral fin -->
-    <path d="M11,13 Q24,30 10,36 Q0,28 11,13"
-          fill="#0c2240" stroke="#3a7fc1" stroke-width="1.1" stroke-linecap="round"/>
-    <!-- pectoral fin ray -->
-    <path d="M11,14 Q16,26 12,34"
-          fill="none" stroke="#1a4a7a" stroke-width=".7"/>
-
-    <!-- scale arcs (3 rows giving depth) -->
-    <path d="M-22,-8 Q-9,-18 3,-8"   fill="none" stroke="#1a4a7a" stroke-width="1"   stroke-linecap="round"/>
-    <path d="M -6,-7 Q  7,-17 19,-7" fill="none" stroke="#1a4a7a" stroke-width="1"   stroke-linecap="round"/>
-    <path d="M-34,-4 Q-21,-14 -9,-4" fill="none" stroke="#1a4a7a" stroke-width="1"   stroke-linecap="round"/>
-    <!-- faint second row -->
-    <path d="M-20, 4 Q -7, -5 5, 4"  fill="none" stroke="#122036" stroke-width=".8"  stroke-linecap="round"/>
-    <path d="M -6, 5 Q   7, -4 19,5" fill="none" stroke="#122036" stroke-width=".8"  stroke-linecap="round"/>
-
-    <!-- lateral line -->
-    <path d="M-36,2 Q-18,6 0,4 Q18,2 36,0"
-          fill="none" stroke="#1a3a5a" stroke-width=".7" stroke-dasharray="2,3"/>
-
-    <!-- eye socket (shadow) -->
-    <circle cx="28" cy="-5" r="8" fill="#091420" opacity=".5"/>
-    <!-- eye white -->
-    <circle cx="28" cy="-5" r="6.5" fill="#0a1628" stroke="#58a6ff" stroke-width="1.4"/>
-    <!-- iris -->
-    <circle cx="28" cy="-5" r="4" fill="#0d2a50"/>
-    <!-- pupil -->
-    <circle cx="29" cy="-5" r="2.4" fill="#58a6ff"/>
-    <!-- specular highlight -->
-    <circle cx="31" cy="-7.5" r="1" fill="#c0dfff" opacity=".9"/>
-    <circle cx="30" cy="-4"   r=".5" fill="#c0dfff" opacity=".5"/>
-
-    <!-- nostril -->
-    <circle cx="39" cy="-8" r=".9" fill="#1a4a7a" opacity=".8"/>
-
-    <!-- mouth -->
-    <path d="M42,-2 Q46,2 42,6"
-          fill="none" stroke="#3a7fc1" stroke-width="1.3" stroke-linecap="round"/>
-
-    <!-- snout edge highlight -->
-    <path d="M36,-14 Q44,-6 44,2"
-          fill="none" stroke="#1a4a7a" stroke-width=".9" stroke-linecap="round" opacity=".6"/>
-
-    <!-- bubbles (rise from mouth, bob with fish) -->
-    <g class="b1"><circle cx="52" cy="-10" r="4.2" fill="none" stroke="#58a6ff" stroke-width="1.1" opacity=".75"/></g>
-    <g class="b2"><circle cx="46" cy="-16" r="2.6" fill="none" stroke="#58a6ff" stroke-width=".85" opacity=".75"/></g>
-    <g class="b3"><circle cx="56" cy="-13" r="3.2" fill="none" stroke="#3a7fc1" stroke-width=".9"  opacity=".75"/></g>
+    <!-- bottom scatter -->
+    <text class="c" x="116" y="90">, · · ~ · ,</text>
 
   </g>
-</g>
 
-<!-- water ripples (outside bob so they stay at surface) -->
-<ellipse class="r1" cx="78" cy="190" rx="54" ry="6.5" fill="none" stroke="#1c3357" stroke-width=".85"/>
-<ellipse class="r2" cx="78" cy="193" rx="37" ry="4.2" fill="none" stroke="#1c3357" stroke-width=".6"/>
+  <!-- tail fin — separate wag -->
+  <g class="tail">
+    <text class="c" x="264" y="56">; ,</text>
+    <text class="c" x="268" y="70">; ,</text>
+  </g>
+
 </svg>
